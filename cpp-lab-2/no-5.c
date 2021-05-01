@@ -7,6 +7,7 @@ int main(){
     scanf("%f", &c);
     f = (1.8*c + 32);
     printf("%f", f);
-    return 0;
+return 0;
+
 
 }
