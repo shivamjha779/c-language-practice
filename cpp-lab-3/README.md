@@ -16,3 +16,6 @@ T=Z++ + ++Z;
 
 3. int a = 7, b = 7, c = 10;
 Try all relational operators on these variables and print the output as 0 and 1 based on these values.
+4. Write a program to perform a given operation using bitwise operators on two
+values.
+X&Y, X|Y, X^Y, X<<2, Y>>2
