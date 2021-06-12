@@ -6,6 +6,12 @@ int main()
     int a, b;
     printf("enter the two nos \n");
     scanf("%d %d", &a, &b);
-    for(int b;)
+    int c, d;
+    c= a%2;
+    d = b%2;
+    if(c==0 && d==0)
+    {
+    printf("%d", (a+b)/2);
+    }
     return 0;
 }
