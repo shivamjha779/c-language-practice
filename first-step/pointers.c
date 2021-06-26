@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a=50;
-    int *p = &a;
-    
-    // printf("%x\t", *p);
-    printf("%x", p);
+    int a = 50;
+    int *p;
+    p = &a;
+    printf("%d\n", p);
+    printf("%d", p+1);
     return 0;
-
 }

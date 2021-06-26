@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{
+{ // incomplete
 // 3. Add, Subtract, multiply, divide, modulo and power two nos. using switch statement. 
 int a, b, s;
 char c;

@@ -13,8 +13,11 @@ int main()
         if (c == 0 && d != 0)
         {
             printf("%d\t", i);
-        } else if(c==0 && d==0){
-            if(e==0){
+        }
+        else if (c == 0 && d == 0)
+        {
+            if (e == 0)
+            {
                 printf("%d\t", i);
             }
         }
