@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ // incomplete
     // Print Hollow Pyramid Star Pattern
     int a;
     printf("enter the no of rows= ");
