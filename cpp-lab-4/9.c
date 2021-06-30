@@ -21,7 +21,8 @@ int main()
         b[i] = b[i - 1];
     }
     b[pla - 1] = num;
-    for (int j = 0; j < a+1; j++)
+    a++;
+    for (int j = 0; j < a; j++)
     {
         printf("%d\t", b[j]);
     }
