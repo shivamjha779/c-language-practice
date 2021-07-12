@@ -4,10 +4,11 @@ int fact(int a)
     int ans;
     if (a == 0)
     {
-        ans=1;
-    }else{
-        ans = a*fact(a-1);
-
+        ans = 1;
+    }
+    else
+    {
+        ans = a * fact(a - 1);
     }
     return ans;
 }
